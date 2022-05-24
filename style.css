@@ -142,7 +142,7 @@ h4 {
 }
 
 .logo {
-  padding: 25px 60px;
+  padding: 20px 60px;
 }
 
 .index-container{
@@ -275,6 +275,10 @@ ul{list-style-type: none;}
   background: transparent;
 }
 
+.logo{
+  margin-right: 32px;
+}
+
 .navdesktop div:nth-child(2){
   flex-grow: 1;
 }
@@ -343,7 +347,8 @@ ul li a,.dropdown a{
 .movie-section {
   display: flex;
   flex-direction: column;
-  padding: 30px 60px;
+  padding: 0 60px 0 60px;
+  overflow-x: scroll;
 }
 
 .poster-container {
@@ -357,9 +362,13 @@ ul li a,.dropdown a{
 }
 
 .movie-poster img {
-  height: 160px;
-  width: 285px;
+  max-height: 160px;
+  max-width: 285px;
   border-radius: 2px;
+}
+
+.section-title {
+  padding: 0 60px 0 60px;
 }
 
 /* End of Movie Cards Sections */
